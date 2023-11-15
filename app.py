@@ -28,6 +28,7 @@ def recommend(movie):
     return recommended_movies, recommended_posters
 
 st.title("Movie recommender system")
+st.write("(Collaborative approach)")
 
 option = st.selectbox('Enter a movie name and click recommend', listOfMovies['title'].values)
 
